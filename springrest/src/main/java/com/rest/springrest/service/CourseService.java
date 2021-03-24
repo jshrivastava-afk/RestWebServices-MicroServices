@@ -9,5 +9,6 @@ public interface CourseService {
 	public List<Course> getCourses();
 	public Course getCourse(long c_id);
 	public Course addCourse(Course cr);
-	
+	public Course updateCourse(Course cr);
+	public void deleteCourse(long c_id);
 }
