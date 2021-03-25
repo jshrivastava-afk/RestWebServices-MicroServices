@@ -49,13 +49,14 @@ public class CourseServiceImpl implements CourseService {
 	}
 
 	@Override
-	public Course updateCourse(Course cr) {
+	public Course  updateCourse(Course cr) {
 		/*
 		 * List<Course> li=getCourses(); li.forEach(e->{ if(e.getC_id()==cr.getC_id()) {
 		 * e.setC_name(cr.getC_name()); e.setC_desc(cr.getC_desc()); } }); return cr;
 		 */
 		cd.save(cr);
 		return cr;
+		
 	}
 
 	@Override
